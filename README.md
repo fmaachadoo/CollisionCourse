@@ -2,7 +2,7 @@
 
 > 🦇 This is a college project
 
-## Sobre 
+## About
 
 This university project, conceived and developed by me, implements Quadtree algorithms for collision detection among points moving within a two-dimensional field. The initiative to utilize Quadtree was entirely my own, driven by a desire to explore beyond the required project scope. Although the use of Quadtree was not a necessity for the assignment, my commitment to this approach led to significant enhancements in computational efficiency for collision detection.
 
@@ -13,6 +13,8 @@ For example, in a scenario with 75 points on the field, traditional methods woul
 This innovative approach not only fulfilled but surpassed the project's objectives, earning me a grade of SS+, a mark exceeding the maximum score traditionally awarded.
 
 ---
+
+## Sobre 
 
 Este projeto implementa algoritmos de [Quadtree](https://en.wikipedia.org/wiki/Quadtree) para detectar colisão entre pontos que se movem em um campo de duas dimensões. A Quadtree segmenta o campo em quadrantes que são subdivididos recursivamente até atingir um limite específico de pontos por quadrante, permitindo que as verificações de colisão sejam realizadas apenas entre pontos no mesmo ou em quadrantes adjacentes. Isso reduz significativamente o número de comparações necessárias, tornando a detecção de colisões muito mais eficiente em termos computacionais.
 
