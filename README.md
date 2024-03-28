@@ -4,7 +4,7 @@
 
 ## About
 
-This university project, conceived and developed by me, implements Quadtree algorithms for collision detection among points moving within a two-dimensional field. The initiative to utilize Quadtree was entirely my own, driven by a desire to explore beyond the required project scope. Although the use of Quadtree was not a necessity for the assignment, my commitment to this approach led to significant enhancements in computational efficiency for collision detection.
+This university project, conceived and developed by me, implements [Quadtree](https://en.wikipedia.org/wiki/Quadtree) algorithms for collision detection among points moving within a two-dimensional field. The initiative to utilize Quadtree was entirely my own, driven by a desire to explore beyond the required project scope. Although the use of Quadtree was not a necessity for the assignment, my commitment to this approach led to significant enhancements in computational efficiency for collision detection.
 
 The Quadtree method segments the field into quadrants, recursively subdividing them until a specific limit of points per quadrant is reached. This technique allows for collision checks to be conducted solely between points in the same or adjacent quadrants, dramatically reducing the number of required comparisons.
 
